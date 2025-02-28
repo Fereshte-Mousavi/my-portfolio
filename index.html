@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="w-full bg-[#f4f4f4]">
+      <header>
+        <nav
+          class="mx-8 mb-5 flex items-center justify-between py-4 md:mx-20 lg:mx-24"
+        >
+          <div>
+            <p class="first-letter:text-3xl first-letter:text-yellow-500">
+              F Mos.
+            </p>
+          </div>
+          <ul class="mt-4 flex gap-4">
+            <li><a href="#" class="hover:text-yellow-500">Home</a></li>
+            <li>
+              <a href="#project" class="hover:text-yellow-500">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-yellow-500">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div
+          class="flex w-full flex-col-reverse items-center md:flex-row md:items-center md:justify-between md:px-20 lg:flex-row lg:px-24"
+        >
+          <div class="md:flex-1 md:px-12 lg:flex-1 lg:px-12">
+            <h3 class="text-semibold text-xl text-yellow-500">
+              Web Development
+            </h3>
+            <h1
+              class="text-3xl font-semibold md:text-4xl md:font-bold lg:text-4xl lg:font-black"
+            >
+              Hello , My name <br />
+              is Fereshte Mousavi
+            </h1>
+            <p class="my-2.5 max-w-64 text-gray-400 md:max-w-96 lg:max-w-96">
+              I'm a passionate creative with a love for innovative design and
+              storytelling With a background in web developing.
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/my-pic.png"
+              alt="aks"
+              class="mb-8 h-auto w-52 md:h-auto md:w-64 md:flex-1 lg:h-auto lg:w-80 lg:flex-1"
+            />
+          </div>
+        </div>
+
+        <div class="mt-8 px-16 md:px-32 lg:px-32">
+          <h2 class="mb-4 text-center font-serif text-2xl" id="project">
+            Projects : <br />
+            <span class="md:text-[15px] lg:text-[20px] text-gray-400"
+              >They are not responsive Then please open those in the desktop
+              mode</span
+            >
+          </h2>
+          <div
+            class="flex flex-col md:flex md:flex-row md:gap-10 lg:flex lg:flex-row lg:gap-10"
+          >
+            <div
+              class="mx-auto text-center mb-4 h-64 w-64 bg-white md:flex-1 lg:flex-1 border-1 rounded-3xl border-yellow-500"
+            >
+              <h2 class="mt-20 mb-12 font-semibold text-2xl">Snap</h2>
+              <button class="border-3 px-8 py-4 rounded-4xl border-yellow-500">
+                <a href="https://fereshte-mousavi.github.io/snap/"
+                  >View project</a
+                >
+              </button>
+            </div>
+            <div
+              class="mx-auto text-center mb-4 h-64 w-64 bg-white md:flex-1 lg:flex-1 border-1 rounded-3xl border-yellow-500"
+            >
+              <h2 class="mt-20 mb-12 font-semibold text-2xl">Enfold layer</h2>
+              <button class="border-3 px-8 py-4 rounded-4xl border-yellow-500">
+                <a href="https://fereshte-mousavi.github.io/enfold-layer/"
+                  >View project</a
+                >
+              </button>
+            </div>
+            <div
+              class="mx-auto text-center mb-4 h-64 w-64 bg-white md:flex-1 lg:flex-1 border-1 rounded-3xl border-yellow-500"
+            >
+              <h2 class="mt-20 mb-12 font-semibold text-2xl">
+                Enfold Bussiness
+              </h2>
+              <button class="border-3 px-8 py-4 rounded-4xl border-yellow-500">
+                <a href="https://fereshte-mousavi.github.io/enfold-business/"
+                  >View project</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="py-20 flex justify-center gap-5" id="contact">
+        <a href="mailto:fm78ttt@gmail.com"
+          ><i class="fa-solid fa-envelope text-2xl"></i
+        ></a>
+        <a href="https://t.me/+989308493875"
+          ><i class="fa-solid fa-paper-plane text-2xl"></i
+        ></a>
+        <a href="https://www.instagram.com/fereshte_mousavi_/"
+          ><i class="fa-brands fa-square-instagram text-2xl"></i
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>
